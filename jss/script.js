@@ -26,13 +26,16 @@ var stx = function(titulo, a) {
 var parf = function(a) {
     var frame = document.getElementById("frame");
     if (a == 1) {
-        frame.src = '/page/intro.html'
+        frame.src = 'intro.html'
+        console.log("1")
     }
     if (a == 2) {
-        frame.src = '/page/comenzar.html'
+        frame.src = 'comenzar.html'
+        console.log("2")
     }
     if (a == 3) {
-        frame.src = '/page/sintx.html'
+        frame.src = 'sintx.html'
+        console.log("3")
     }
 }
 
