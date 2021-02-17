@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KayINF</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<script type="text/javascript" src="jss/script.js"></script>
+
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">K<span class="inf">INF</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="img/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.svg" alt="Close Navigation">
+
+                <ul class="primary-nav">
+                    <li id="inicio" type="buttom" class="inicio_l"><a href="#">Inicio</a></li>
+                    <li id="categoria" class="categ_l"><a href="#">Categoria</a></li>
+                    <li id="lista" class="lista_l"><a href="#">Lista</a></li>
+                    <li class="lista_l"><a href="#">|</a></li>
+                    <li class="lista_l"><a href="#">HTML</a></li>
+                    <li class="lista_l"><a href="#">CSS</a></li>
+                    <li class="lista_l"><a href="python.html">Python</a></li>
+                </ul>
+
+                <ul class="secundary-nav">
+                    <li class="inicio_l"><a href="#">Contacto</a></li>
+                    <li class="categ_l"><a href="#">Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero" style="padding-top: 7.5em;">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">Tu Página de Programación</p>
+                <h1 id="hi" class="head">KAINFORMÁTICA</h1>
+
+                <div class="hero-cta">
+                    <input type="button" onclick="hi()" class="primary-cta" value="Mirálo completo acá">
+                </div>
+            </div>
+
+            <img class="html_img" src="img/html_img.png" alt="" style="width: 25%; padding: 6em ; padding-top: 0;">
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <ul>
+                <li>Cursos Completos</li>
+                <li>Libros de programacion</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contacto</h2>
+
+                <form autocomplete="off" action="">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Tu nombre">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Tu email">
+
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                    <input id="enviar" onclick="getData()" type="button" class="send-message" value="Enviar">
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+
+</html>
